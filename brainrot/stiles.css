@@ -1,0 +1,10 @@
+body{
+    background-color: black;
+}
+
+div{
+    display:block;
+    width: fit-content;
+    margin:auto;
+    background-color: aqua;
+}

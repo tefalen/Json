@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="cs">
 <head>
@@ -22,3 +23,29 @@
   </script>
 </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <title>Počítadlo kliknutí</title>
+</head>
+<body>
+  <h1>Počítadlo kliknutí</h1>
+
+  <button id="clickBtn">Klikni na mě!</button>
+  <p id="counter">Kliknuto: 0 krát</p>
+
+  <script>
+    let count = 0;
+    const btn = document.getElementById("clickBtn");
+    const counter = document.getElementById("counter");
+
+    btn.addEventListener("click", () => {
+      count++;
+      counter.textContent = "Kliknuto: " + count + " krát";
+    });
+  </script>
+</body>
+</html>
+>>>>>>> 4400736f124424134f02149b7b3e1afaf5d27d47
