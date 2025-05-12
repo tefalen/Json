@@ -7,4 +7,21 @@ div{
     width: fit-content;
     margin:auto;
     background-color: aqua;
+    text-align: center;
+    width: 800px;
+    padding: 20px;
+}
+h1{
+    text-decoration-line: underline;
+}
+img{border: 12px;
+    border-color: black;
+    border-style: solid;
+    margin-top: 5px;
+
+}
+
+p{
+    word-wrap: break-word;
+    font-size: 25px;
 }
